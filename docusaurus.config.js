@@ -12,15 +12,14 @@ const config = {
   tagline: 'MLOps Project Documentation',
   favicon: 'img/favicon.ico',
 
-  // Your production URL
+  // Set the production url of your site here
   url: 'https://MdEhsanulHaqueKanan.github.io',
-  
-  // Use correct base URL for development and deployment
-  baseUrl: '/',
+  // Set the /<baseUrl>/ pathname under which your site is served
+  baseUrl: '/aws-predictor-docs/',
 
   // GitHub pages deployment config.
-  organizationName: 'MdEhsanulHaqueKanan',
-  projectName: 'aws-predictor-docs',
+  organizationName: 'MdEhsanulHaqueKanan', // Your GitHub username.
+  projectName: 'aws-predictor-docs', // Your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -30,7 +29,6 @@ const config = {
     locales: ['en'],
   },
 
-  // Mermaid configuration
   markdown: {
     mermaid: true,
   },
@@ -43,8 +41,7 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          // THIS IS THE CRITICAL FIX: Make docs the homepage
-          routeBasePath: '/', 
+          routeBasePath: '/', // Makes docs the homepage
           editUrl:
             'https://github.com/MdEhsanulHaqueKanan/aws-predictor-docs/tree/main/',
         },
