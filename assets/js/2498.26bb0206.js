@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkaws_predictor_docs=self.webpackChunkaws_predictor_docs||[]).push([[2498],{2498:(e,c,r)=>{r.d(c,{createArchitectureServices:()=>s.S});var s=r(3009);r(8198)}}]);
